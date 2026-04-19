@@ -26,7 +26,7 @@ type SurahResponse = {
 export const quranApi = createApi({
   reducerPath: "quranApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/api",
+    baseUrl: "https://quran-backend-six.vercel.app/api",
   }),
 
   endpoints: (builder) => ({
